@@ -14,7 +14,7 @@ const routes: Routes = [
     outlet: 'popup'
   },
   {
-    path: '', // 原始路由路径为: path: 'test'
+    path: 'test', // 原始路由路径为: path: 'test'
     canActivateChild: [AuthGuard],
     component: TestRootComponent,
     children: [

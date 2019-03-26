@@ -9,9 +9,10 @@ import {FormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 import { TestRootComponent } from './test-root/test-root.component';
 import { StepTestComponent } from './step-test/step-test.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
-  declarations: [TableTestComponent, CalendarTestComponent, TestRootComponent, StepTestComponent],
+  declarations: [TableTestComponent, CalendarTestComponent, TestRootComponent, StepTestComponent, LayoutComponent],
   imports: [
     CommonModule,
     TestRoutingModule,
